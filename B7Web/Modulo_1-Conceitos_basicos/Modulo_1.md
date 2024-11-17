@@ -28,9 +28,20 @@ Uma tag geralmente é composta por uma _**tag de abertura**_, o _**conteúdo**_ 
     * Marca o fim do elemento, precedida por uma barra `/`;
     * Exemplo: `</p>` (fim do parágrafo).
 
-### Exemplo completo:
+#### Exemplo completo:
 ```
 <p>Olá, mundo!</p>
+```
+<hr/>
+
+### Tags Sem Conteúdo (Auto-Fechadas):
+
+Algumas tags não têm conteúdo e são auto-fechadas. Elas não precisam de uma tag de fechamento separada.
+
+#### Exemplo:
+```
+<br />
+<hr />
 ```
 <hr/>
 
