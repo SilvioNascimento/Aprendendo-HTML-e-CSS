@@ -8,7 +8,7 @@ Uma **tag** em HTML é um elemento básico usado para marcar e estruturar o cont
 
 ### Estrutura geral de uma Tag:
 Uma tag geralmente é composta por uma _**tag de abertura**_, o _**conteúdo**_ e uma _**tag de fechamento**_:
-```
+```html
 <tag>Conteúdo</tag>
 ```
 
@@ -29,7 +29,7 @@ Uma tag geralmente é composta por uma _**tag de abertura**_, o _**conteúdo**_ 
     * Exemplo: `</p>` (fim do parágrafo).
 
 #### Exemplo completo:
-```
+```html
 <p>Olá, mundo!</p>
 ```
 <hr/>
@@ -77,3 +77,87 @@ A tabela a seguir informa sobre as tags HTML, suas descrições e suas estrutura
 | `<strong>`        | Define texto com ênfase forte (geralmente em negrito).                       | `<strong>Texto</strong>`                   |
 | `<em>`            | Define texto enfatizado (geralmente em itálico).                             | `<em>Texto</em>`                           |
 
+
+## Atributos
+Os **atributos em HTML** são usados para fornecer informações adicionais sobre os elementos. Eles são sempre especificados na **_tag de abertura_** e vêm no formato **_nome=valor_**.
+
+<hr/>
+
+### Estrutura Geral de um Atributo:
+```html
+<tag atributo="valor">Conteúdo</tag>
+```
+
+<hr/>
+
+### Exemplos de Atributos Comuns:
+1. `id`
+
+    Identifica um elemento de forma única na página.
+    ```html
+    <div id="cabecalho">Bem-vindo!</div>
+    ```
+
+2. `class`
+
+    Define uma ou mais classes para estilizar ou selecionar elementos com CSS e JavaScript.
+    ```html
+    <p class="texto-destaque">Texto em destaque.</p>
+    ```
+
+3. `src`
+
+    Especifica a URL de um recurso externo, como imagens ou scripts.
+    ```html
+    <img src="imagem.jpg" alt="Descrição da imagem" />
+    ```
+
+4. `href`
+
+    Especifica o destino de um link.
+    ```html
+    <a href="https://www.example.com">Visite o site</a>
+    ```
+
+5. `alt`
+
+    Fornece uma descrição alternativa para imagens (usado para acessibilidade e quando a imagem não pode ser carregada).
+    ```html
+    <img src="logo.png" alt="Logo da empresa" />
+    ```
+
+6. `title`
+
+    Adiciona uma descrição que aparece como dica (tooltip) ao passar o mouse sobre o elemento.
+    ```html
+    <button title="Clique aqui para enviar">Enviar</button>
+    ```
+
+7. `style`
+
+    Define estilos diretamente em um elemento.
+    ```html
+    <h1 style="color: blue; font-size: 20px;">Título Azul</h1>
+    ```
+
+8. `type`
+
+    Define o tipo de um elemento (geralmente usado em `<input>` ou `<button>`).
+    ```html
+    <input type="text" placeholder="Digite seu nome" />
+    ```
+
+9. `placeholder`
+
+    Define um texto de sugestão em campos de entrada.
+    ```html
+    <input type="email" placeholder="Digite seu e-mail" />
+    ```
+
+
+10. `value`
+
+    Define um valor padrão para elementos como `<input>` ou `<textarea>`.
+    ```html
+    <input type="text" value="Preenchido automaticamente" />
+    ```
