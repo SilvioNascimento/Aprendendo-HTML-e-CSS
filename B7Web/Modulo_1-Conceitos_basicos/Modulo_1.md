@@ -1,7 +1,40 @@
 # Anotações sobre o módulo 1 de B7Web
 
 
-## Tags
+## Tags:
+Uma **tag** em HTML é um elemento básico usado para marcar e estruturar o conteúdo de uma página web. As tags informam ao navegador como o conteúdo deve ser exibido, como textos, imagens, links, tabelas, entre outros.
+
+<hr/>
+
+### Estrutura geral de uma Tag:
+Uma tag geralmente é composta por uma _**tag de abertura**_, o _**conteúdo**_ e uma _**tag de fechamento**_:
+```
+<tag>Conteúdo</tag>
+```
+
+#### Componentes:
+1. **_Tag de abertura_:**
+
+    * Define o início de um elemento;
+    * Exemplo: `<p>` (para um parágrafo).
+
+2. **_Conteúdo_:**
+
+    * O texto, imagem ou outros elementos que a tag deve exibir ou estruturar;
+    * Exemplo: "Olá, mundo!" dentro de um parágrafo.
+
+3. **_Tag de fechamento_:**
+
+    * Marca o fim do elemento, precedida por uma barra `/`;
+    * Exemplo: `</p>` (fim do parágrafo).
+
+### Exemplo completo:
+```
+<p>Olá, mundo!</p>
+```
+<hr/>
+
+### Tabela em HTML
 A tabela a seguir informa sobre as tags HTML, suas descrições e suas estruturas. Vale informar que a maioria das informações da tabela foram obtidas através da ajuda da inteligência artificial **ChatGpt**.
 
 ###
