@@ -13,8 +13,8 @@ Os nomes das plataformas de estudo a seguir são aquelas que aprendi sobre HTML 
 
 * [B7Web](https://alunos.b7web.com.br/curso/html5-e-css3/o-que-e-html-e-pra-que-serve)
     * Esta plataforma é administrada pelo professor Bonieky Lacerda;
-    * Esta plataforma oferece 276 aulas de **HTML** e **CSS** de forma gratuita.
-    * Todas essas aulas são divididas em 15 módulos
+    * Esta plataforma oferece 276 aulas de **HTML** e **CSS** de forma gratuita;
+    * Todas essas aulas são divididas em 15 módulos.
 
 
 * [DIO](https://www.dio.me/)
