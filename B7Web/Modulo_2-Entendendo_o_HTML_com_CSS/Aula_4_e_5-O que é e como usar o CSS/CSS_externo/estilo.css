@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    font-size: 15px;
+}
+a {
+    font-size: 30px;
+    color:green;
+}
+img {
+    width: 200px;
+}
+li {
+    font-weight: bold;
+    color: blueviolet;
+}
