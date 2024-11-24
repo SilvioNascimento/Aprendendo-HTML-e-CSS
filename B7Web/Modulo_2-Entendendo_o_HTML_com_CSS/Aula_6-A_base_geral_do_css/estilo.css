@@ -1,0 +1,31 @@
+/* 1ª forma de referir um elemento: especificar todos que tenham a tag informado para 
+aplicar o estilo */
+h2 {
+    color: red;
+}
+/* -------------------------------------------------------------------------------------------- */
+
+/* 2ª forma de referir um elemento: especificar um elemento pelo 'id' para aplicar o estilo */
+#titulo {
+    color: green;
+}
+/* -------------------------------------------------------------------------------------------- */
+
+/* 3ª forma de referir um elemento: especificar elementos pelo 'class' para aplicar o estilo */
+.texto {
+    color: tomato;
+}
+/* -------------------------------------------------------------------------------------------- */
+
+/* Para aplicar um grupo de estilos em vários elementos, segue o exemplo abaixo: */
+#titulo, .texto {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* -------------------------------------------------------------------------------------------- */
+
+/* Para selecionar um elemento dentro de outro elemento para aplicar um estilo, segue o exemplo
+abaixo: */
+ol li {
+    color: pink
+}
