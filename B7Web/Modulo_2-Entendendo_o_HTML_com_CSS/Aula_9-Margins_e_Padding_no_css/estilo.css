@@ -1,0 +1,18 @@
+body {
+    margin: 0px;    /* É recomendado zerar a margin do body para que você possa
+                       trabalhar os margins de seus outros elementos */
+}
+
+.exemplo {
+    border: 1px solid #00FF00;
+    padding: 20px;  /* Espaçamento interno do elemento */
+    margin: 20px;   /* Espaçamento externo do elemento */
+}
+
+h2, p {
+    margin: 10px;
+}
+
+ul {
+    margin: 0px;
+}
