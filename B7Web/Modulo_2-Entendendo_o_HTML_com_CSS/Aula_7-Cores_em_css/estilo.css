@@ -1,0 +1,7 @@
+#titulo {
+/*    background-color: red; => Atribuindo uma cor definida no plano de fundo */
+/*    background-color: rgb(255, 200, 125); => Atribuindo uma cor através de uma mistura
+        de 'vermelho', 'verde' e 'azul' no plano de fundo (RGB: 'Red', 'Green' and 'Blue') */
+    background-color: #FAB; /* => Atribuindo uma cor através do código em hexadecimal
+        (Valores em hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F)*/
+}
