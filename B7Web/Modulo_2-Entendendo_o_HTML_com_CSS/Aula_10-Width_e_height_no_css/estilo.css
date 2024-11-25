@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+}
+
+.exemplo {
+    background-color: #000000;
+    width: 100%;        /* width => largura */
+    height: 100px;      /* height => altura */
+}
+
+img {
+    width: 100px;
+
+}
