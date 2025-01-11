@@ -363,3 +363,107 @@ div {
 Neste caso:
 * O elemento será centralizado horizontalmente dentro do pai;
 * Haverá 20px de espaço interno.
+
+
+## Width e Height
+
+As propriedades **`width`** e **`height`** são usadas no CSS para definir a largura e a altura de elementos HTML. Elas são fundamentais no design responsivo e no controle de layout em páginas web.
+
+### Width
+
+A propriedade **`width`** especifica a largura de um elemento. Pode ser definida em valores absolutos, relativos ou utilizando palavras-chave específicas.
+
+#### Valores possíveis:
+
+- **Comprimentos absolutos**:
+  - Exemplos: `px`, `cm`, `mm`, `in`.
+  - Exemplo: `width: 200px;`
+- **Percentuais**:
+  - Baseados no tamanho do elemento pai.
+  - Exemplo: `width: 50%;`
+- **Valores automáticos**:
+  - O navegador decide a largura com base no conteúdo e no contexto.
+  - Exemplo: `width: auto;`
+- **Palavras-chave específicas**:
+  - Exemplo: `max-content`, `min-content`.
+
+#### Exemplos de uso:
+
+```html
+<div style="width: 300px; background-color: lightblue;">
+  Este elemento tem largura fixa de 300px.
+</div>
+
+<div style="width: 50%; background-color: lightcoral;">
+  Este elemento ocupa 50% da largura do elemento pai.
+</div>
+```
+
+### Height
+
+A propriedade **`height`** define a altura de um elemento. Assim como `width`, pode ser especificada em valores absolutos, relativos ou palavras-chave.
+
+#### Valores possíveis:
+
+- **Comprimentos absolutos**:
+  - Exemplos: `px`, `cm`, `mm`, `in`.
+  - Exemplo: `height: 150px;`
+- **Percentuais**:
+  - Baseados na altura do elemento pai.
+  - Exemplo: `height: 100%;`
+- **Valores automáticos**:
+  - O navegador ajusta a altura com base no conteúdo.
+  - Exemplo: `height: auto;`
+- **Palavras-chave específicas**:
+  - Exemplo: `max-content`, `min-content`.
+
+#### Exemplos de uso:
+
+```html
+<div style="height: 200px; background-color: lightgreen;">
+  Este elemento tem altura fixa de 200px.
+</div>
+
+<div style="height: 100%; background-color: lightgoldenrodyellow;">
+  Este elemento ocupa 100% da altura do elemento pai.
+</div>
+```
+
+### Considerações adicionais:
+
+- A combinação de `width` e `height` pode ser usada para criar elementos de tamanho fixo ou responsivo.
+- As propriedades podem ser combinadas com `max-width`, `min-width`, `max-height` e `min-height` para maior controle.
+
+#### Exemplo prático:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Width e Height</title>
+  <style>
+    .box {
+      background-color: lightgray;
+      border: 1px solid black;
+      margin: 10px;
+    }
+    .fixed {
+      width: 200px;
+      height: 100px;
+    }
+    .percentage {
+      width: 50%;
+      height: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="box fixed">Tamanho fixo: 200px x 100px</div>
+  <div class="box percentage">Tamanho relativo: 50% da largura e altura do pai</div>
+</body>
+</html>
+```
+
+Essas propriedades são essenciais para o controle visual e de layout no desenvolvimento de interfaces web. Use-as com sabedoria para alcançar designs elegantes e responsivos!
