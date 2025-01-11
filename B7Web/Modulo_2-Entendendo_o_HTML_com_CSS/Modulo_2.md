@@ -552,3 +552,125 @@ Esse código garante que todos os elementos na página usem o cálculo mais intu
 - **Herdabilidade**: Definir `box-sizing: border-box` globalmente ajuda a manter consistência.
 
 ---
+
+
+## Tag `<a>`
+
+A tag `<a>` em HTML é usada para criar links de navegação, permitindo que o usuário acesse outras páginas, documentos, ou até mesmo partes específicas da mesma página.
+
+---
+
+### **Estrutura básica da tag `<a>`**
+
+A tag `<a>` utiliza o atributo `href` para especificar o destino do link.
+
+#### **Exemplo básico:**
+```html
+<a href="https://www.example.com">Visite o Example</a>
+```
+
+---
+
+### **Atributos Comuns**
+
+1. **`href`**: Especifica o destino do link.
+   - Exemplo: `href="https://www.google.com"`
+
+2. **`target`**: Define onde o link será aberto.
+   - `_self` (padrão): Abre no mesmo tab.
+   - `_blank`: Abre em uma nova aba.
+   - Exemplo: `target="_blank"`
+
+3. **`rel`**: Usado com `target="_blank"` para segurança.
+   - Exemplo: `rel="noopener noreferrer"`
+
+4. **`title`**: Mostra um texto ao passar o mouse sobre o link.
+   - Exemplo: `title="Clique para mais informações"`
+
+---
+
+### **Exemplo Completo:**
+```html
+<a href="https://www.example.com" target="_blank" rel="noopener noreferrer" title="Visite o Example">
+    Clique aqui para visitar o Example
+</a>
+```
+
+---
+
+### **Personalizando Links com CSS**
+
+Os links podem ser estilizados de forma a mudar a aparência padrão. O CSS permite aplicar estilos em diferentes estados do link.
+
+#### **Pseudo-classes comuns:**
+1. **`:link`**: Estiliza links que ainda não foram visitados.
+2. **`:visited`**: Estiliza links já visitados.
+3. **`:hover`**: Aplica estilo quando o mouse passa sobre o link.
+4. **`:active`**: Aplica estilo ao clicar no link.
+
+---
+
+#### **Exemplo de Estilo CSS:**
+```html
+<style>
+  /* Links padrão */
+  a {
+      color: blue;
+      text-decoration: none;
+  }
+
+  /* Links visitados */
+  a:visited {
+      color: purple;
+  }
+
+  /* Links ao passar o mouse */
+  a:hover {
+      color: red;
+      text-decoration: underline;
+  }
+
+  /* Links durante o clique */
+  a:active {
+      color: orange;
+  }
+</style>
+```
+
+#### **HTML com estilo aplicado:**
+```html
+<a href="https://www.example.com">Este é um link estilizado</a>
+```
+
+---
+
+### **Estilo Customizado para Botões-Link**
+
+Links podem ser estilizados como botões para melhorar a aparência.
+
+#### **Exemplo de botão-link:**
+```html
+<style>
+  .botao-link {
+      display: inline-block;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+
+  .botao-link:hover {
+      background-color: #0056b3;
+  }
+</style>
+
+<a href="https://www.example.com" class="botao-link">Botão-Link</a>
+```
+
+---
+
+### **Considerações importantes**
+- Sempre use `rel="noopener noreferrer"` ao usar `target="_blank` para segurança.
+- Teste os estilos em diferentes navegadores para garantir a consistência.
+- Mantenha links acessíveis com textos descritivos que indiquem seu destino.
