@@ -467,3 +467,88 @@ A propriedade **`height`** define a altura de um elemento. Assim como `width`, p
 ```
 
 Essas propriedades são essenciais para o controle visual e de layout no desenvolvimento de interfaces web. Use-as com sabedoria para alcançar designs elegantes e responsivos!
+
+
+## Propriedade `box-sizing` no CSS
+
+A propriedade `box-sizing` é usada para alterar o cálculo do tamanho total de um elemento, controlando como a largura e a altura do elemento são calculadas.
+
+---
+
+### **O que é `box-sizing`?**
+
+Por padrão, a largura e a altura de um elemento são determinadas apenas pelo conteúdo, **não incluindo o padding e a borda**. Isso pode dificultar o design de layouts. O `box-sizing` resolve essa questão ao permitir que você altere essa lógica de cálculo.
+
+---
+
+### **Valores de `box-sizing`**
+
+1. **`content-box`** (padrão):  
+   O tamanho do elemento inclui apenas o conteúdo. O padding e a borda **não estão incluídos** na largura/altura definidas.
+
+2. **`border-box`**:  
+   O tamanho do elemento **inclui o conteúdo, o padding e a borda**. É útil para simplificar o layout, garantindo que o elemento sempre respeite a largura/altura definidas.
+
+---
+
+### **Exemplos**
+
+#### **`content-box` (padrão)**
+```html
+<div style="width: 200px; padding: 20px; border: 5px solid black; box-sizing: content-box; background-color: lightblue;">
+    Este é um exemplo com `content-box`.
+</div>
+```
+- **Largura total** = largura (200px) + padding (20px x 2) + borda (5px x 2) = **250px**
+- **Altura total** segue o mesmo cálculo.
+
+---
+
+#### **`border-box`**
+```html
+<div style="width: 200px; padding: 20px; border: 5px solid black; box-sizing: border-box; background-color: lightgreen;">
+    Este é um exemplo com `border-box`.
+</div>
+```
+- **Largura total** = 200px (o valor inclui conteúdo + padding + borda).
+- O elemento ocupa exatamente os 200px especificados.
+
+---
+
+### **Usando com CSS global**
+É comum usar o valor `border-box` globalmente para simplificar o design.
+
+```css
+* {
+    box-sizing: border-box;
+}
+```
+
+Esse código garante que todos os elementos na página usem o cálculo mais intuitivo para largura e altura.
+
+---
+
+### **Comparação prática**
+```html
+<div style="width: 150px; padding: 10px; border: 3px solid black; box-sizing: content-box; background-color: lightcoral;">
+    content-box
+</div>
+
+<div style="width: 150px; padding: 10px; border: 3px solid black; box-sizing: border-box; background-color: lightyellow;">
+    border-box
+</div>
+```
+
+#### Resultado:
+- O elemento com `content-box` será maior porque o padding e a borda são adicionados à largura/altura.
+- O elemento com `border-box` terá exatamente 150px, incluindo o padding e a borda.
+
+---
+
+### **Quando usar `box-sizing`?**
+
+- **Layouts responsivos**: Use `border-box` para simplificar o controle do tamanho dos elementos.
+- **Elementos com padding**: `border-box` evita surpresas no cálculo do tamanho total.
+- **Herdabilidade**: Definir `box-sizing: border-box` globalmente ajuda a manter consistência.
+
+---
