@@ -7,6 +7,10 @@ body {
     font-size: 17px;
 }
 
+h1 {
+    font-family: "Caveat", serif;
+}
+
 p {
     color: #09aa09;
     font-size: 20px;
