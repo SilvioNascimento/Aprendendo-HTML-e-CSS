@@ -3,6 +3,8 @@
 
 O CSS oferece diversas propriedades para formatar textos em páginas web, permitindo controle sobre o estilo, espaçamento, alinhamento e decoração. Essas propriedades ajudam a melhorar a legibilidade e a estética de um site.
 
+Caso queira colocar um texto teste sem precisar imaginar um, visite o site [Lore Ipsum](https://www.lipsum.com/feed/html).
+
 ---
 
 ## **Propriedades para Formatação de Textos**
