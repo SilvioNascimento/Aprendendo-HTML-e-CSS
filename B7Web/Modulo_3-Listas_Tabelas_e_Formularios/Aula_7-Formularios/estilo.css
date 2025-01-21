@@ -1,0 +1,42 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: "Caveat", serif;
+}
+
+table {
+    width: 600px;
+}
+
+table thead {
+    background-color: #CCC;
+}
+
+table tbody {
+    background-color: #FFF;
+}
+
+th {
+    font-weight: normal;
+}
+
+th, td{
+    padding: 10px;
+    text-align: justify;
+}
+
+tbody tr:hover {
+    background-color: #EEE;
+}
+
+/* Permite que as linhas pares do corpo da tabela tenham a cor de fundo #EEE */
+tbody tr:nth-child(even) {
+    background-color: #EEE;
+}
