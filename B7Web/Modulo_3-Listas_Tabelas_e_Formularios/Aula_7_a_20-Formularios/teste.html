@@ -17,12 +17,26 @@
 
         <input type="text" name="usuario"/>
 
-        <input type="submit" value="Realizar cadastro" />
 
     </form>
     
-    <h2>Área de Login</h2>
-    <form action="paginas/login.html">
+    <!-- <h2>Área de Login</h2>
+    <form action="paginas/ordenacao.html" method="get">
+        <input type="file" name="usuario1">
+
+        <input type="submit" value="Realizar cadastro" />
+
+    </form> -->
+
+    <h2>Área de Ordenação</h2>
+    <form action="paginas/ordenacao.html" method="get">
+
+        <select name="order">
+            <option value="bestseller">Mais vendidos</option>
+            <option value="last">Recentes</option>
+        </select>
+
+        <input type="submit" value="Fazer cadastro" />
 
     </form>
 
