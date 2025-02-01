@@ -15,7 +15,37 @@
     <h2>Área de Cadastro</h2>
     <form action="paginas/login.html" method="get" >
 
-        <input type="text" name="nome" />
+        <!-- 1ª forma -->
+        <!-- 
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" name="nome" id="nome"/> 
+        
+        -->
+
+        <!-- 2ª forma -->
+        <label>
+            Nome completo: <br/>
+            <input type="text" name="nome" id="nome"/>
+        </label>
+
+        <br/>
+        <br/>
+
+        <!-- 1ª forma -->
+        <!-- 
+
+        <input type="checkbox" id="teste">
+        <label for="teste">Eu declaro que li e aceito os termos de uso.</label> 
+        
+        -->
+
+        <!-- 2ª forma -->
+         <label>
+            <input type="checkbox" />
+            Eu declaro que li e aceito os termos de uso.
+         </label>
+
 
         <button>Realizar cadastro</button>
 
