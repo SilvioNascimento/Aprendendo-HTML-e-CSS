@@ -36,7 +36,7 @@ A estrutura básica da tag `<textarea>` é a seguinte:
   <textarea id="mensagem" name="mensagem"></textarea>
   ```
 
-### 3. **`rows`**
+### 3. **`rows`** (Não recomendado)
 
 - Especifica o número de linhas visíveis no campo.
 - **Exemplo**:
@@ -45,7 +45,7 @@ A estrutura básica da tag `<textarea>` é a seguinte:
   <textarea name="descricao" rows="5"></textarea>
   ```
 
-### 4. **`cols`**
+### 4. **`cols`** (Não recomendado)
 
 - Define a largura do campo em número de caracteres.
 - **Exemplo**:
