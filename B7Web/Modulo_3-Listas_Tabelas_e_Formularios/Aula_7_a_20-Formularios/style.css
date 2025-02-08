@@ -1,0 +1,51 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Playwrite VN';
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type=text], textarea, select {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #CCCCCC;
+    outline: 0;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;       /* Retira a opção de alterar o tamanho da caixa de texto */
+}
+
+.termoslink {
+    color: black;
+    text-decoration: none;
+}
+
+.termoslink:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCCCCC;
+    background-color: #EEEEEE;
+}
+
+button:hover {
+    background-color: #DDDDDD;
+}
