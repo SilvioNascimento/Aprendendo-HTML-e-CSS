@@ -1,54 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-    
-    <form method="post" action="ohio.php">
-
-        <fieldset>
-            <legend>Dados Pessoais</legend>
-            <label>
-                Primeiro nome: <br/>
-                <input type="text" name="name" required minlength="2" maxlength="10"/>
-            </label><br/>
-            <label>
-                Sobrenome: <br/>
-                <input type="text" name="lastname" />
-            </label><br/>
-            <label>
-                E-mail: <br/>
-                <input type="text" name="email" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de e-mail" />
-            </label><br/>
-            <label>
-                Data de nascimento: <br/>
-                <input type="date" name="birthdate" required />
-            </label><br/>
-            <!-- <label>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <form method="post" action="ohio.php" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+          Foto: <br />
+          <input type="file" name="photo" accept="image/*" /><br />
+        </label>
+        <label>
+          Primeiro nome: <br />
+          <input
+            type="text"
+            name="name"
+            required
+            minlength="2"
+            maxlength="10"
+          /> </label
+        ><br />
+        <label>
+          Sobrenome: <br />
+          <input type="text" name="lastname" /> </label
+        ><br />
+        <label>
+          E-mail: <br />
+          <input
+            type="text"
+            name="email"
+            required
+            pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
+            title="endereço de e-mail"
+          /> </label
+        ><br />
+        <label>
+          Data de nascimento: <br />
+          <input type="date" name="birthdate" required /> </label
+        ><br />
+        <!-- <label>
                 Idade: <br/>
                 <input type="number" name="age" required min="18" max="120" />
             </label><br/> -->
-        </fieldset>
+      </fieldset>
 
-        <fieldset>
-            <legend>Dados Profissionais</legend>
-            <label>
-                Nome da empresa: <br/>
-                <input type="text" name="companyname" />
-            </label><br/>
-            <label>
-                Cargo da empresa: <br/>
-                <input type="text" name="companyjobtitle" />
-            </label><br/>
-        </fieldset>
+      <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+          Nome da empresa: <br />
+          <input type="text" name="companyname" /> </label
+        ><br />
+        <label>
+          Cargo da empresa: <br />
+          <input type="text" name="companyjobtitle" /> </label
+        ><br />
+      </fieldset>
 
-        <input type="submit" value="Cadastrar" />
-
+      <input type="submit" value="Cadastrar" />
     </form>
-
-</body>
+  </body>
 </html>
