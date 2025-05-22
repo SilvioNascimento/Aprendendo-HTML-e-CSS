@@ -22,6 +22,7 @@ As tabelas no HTML são usadas para organizar dados em linhas e colunas. Elas s�
 
 5. **`<thead>`**: Agrupa o cabeçalho da tabela. Geralmente contém as tags `<tr>` e `<th>`.
    - Exemplo:
+
    ```html
    <thead>
        <tr>
@@ -33,6 +34,7 @@ As tabelas no HTML são usadas para organizar dados em linhas e colunas. Elas s�
 
 6. **`<tbody>`**: Agrupa o corpo da tabela, que contém os dados principais.
    - Exemplo:
+
    ```html
    <tbody>
        <tr>
@@ -51,6 +53,7 @@ As tabelas no HTML são usadas para organizar dados em linhas e colunas. Elas s�
    - **`rowspan`**: Mescla células verticalmente (de várias linhas).
    - **`width`**: Define a largura da tabela ou de células específicas.
      - Exemplo:
+
      ```html
      <table width="400">
          <tr>
