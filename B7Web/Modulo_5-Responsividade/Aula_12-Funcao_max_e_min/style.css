@@ -1,0 +1,9 @@
+/* Utilizando o max() */
+/* img {
+    width: max(50%, 300px);
+} */
+
+/* Utilizando o min() */
+img {
+    width: min(50%, 300px);
+}

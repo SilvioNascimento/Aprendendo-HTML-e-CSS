@@ -1,0 +1,33 @@
+/* Fucção Var */
+:root {
+    --bg-color: #000;
+    --bg-second: #444;
+    --font-color: #FFF;
+    --font-size: 25px;
+}
+
+/* Utilizando variáveis */
+body {
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+
+h1, .container {
+    color: var(--font-color);
+}
+
+.container {
+    background-color: var(--bg-second);
+}
+
+@media (max-width: 650px) {
+    :root {
+        --font-size: 18px;
+    }
+}
+
+@media (max-width: 450px) {
+    :root {
+        --font-size: 15px;
+    }
+}

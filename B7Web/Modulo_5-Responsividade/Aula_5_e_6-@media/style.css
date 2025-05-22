@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px;
+}
+
+th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@page {
+    margin: 0;
+}
+
+@media only print {
+    h1 {
+        color: black;
+        font-weight: normal;
+    }
+
+    h2 {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: cornflowerblue;
+    }
+}

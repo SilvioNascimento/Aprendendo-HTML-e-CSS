@@ -1,0 +1,71 @@
+/* em: utilizado para basear o tamanho de um item superior e imediato a ele */
+/* 
+body {
+    font-size: 20px;
+}
+
+.box {
+    font-size: 2em;
+}
+
+.box-interno {
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+} 
+*/
+
+html {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.box {
+    font-size: 2rem;
+}
+
+.box-interno {
+    width: 20rem;
+    height: 20rem;
+    background-color: #999;
+}
+
+.box2 {
+    width: 50%;
+    height: 400px;
+    background-color: #999;
+}
+
+.box-interno2 {
+    width: 50%;
+    height: 50%;
+    background-color: #444;
+}
+
+body {
+    font-family: Courier;
+    margin: 0;
+}
+
+.box3 {
+    width: 300px;
+    background-color: #999;
+}
+
+.box-interno3 {
+    background-color: #444;
+    color: #fff;
+    width: 15ch;
+}
+
+.box4 {
+    height: 50vmin;
+    background-color: #333;
+}
+
+.box-interno4 {
+    color: #fff;
+}
