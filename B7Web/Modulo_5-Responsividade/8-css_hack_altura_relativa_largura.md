@@ -25,7 +25,7 @@ O truque está em usar `padding-bottom` porque, em CSS, o padding vertical é ca
 
 Para calcular o valor do `padding-bottom` que mantém a proporção, use a fórmula:
 
-```
+```text
 padding-bottom = (altura / largura) * 100%
 ```
 
