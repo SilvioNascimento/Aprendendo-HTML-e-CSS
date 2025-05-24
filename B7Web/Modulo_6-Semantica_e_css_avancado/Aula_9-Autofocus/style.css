@@ -1,0 +1,19 @@
+body {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #CCC;
+    width: 180px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+[name='usuario'], [name='senha'] {
+    height: 18px;
+    padding: 5px;
+}

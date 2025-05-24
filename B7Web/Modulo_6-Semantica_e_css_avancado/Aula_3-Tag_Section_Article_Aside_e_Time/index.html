@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com Section, Article, Aside e Time</title>
+    <style>
+        /* Estilos básicos para melhor visualização */
+        body { font-family: sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 960px; margin: 20px auto; display: flex; gap: 20px; }
+        main { flex: 3; }
+        aside { flex: 1; background-color: #f4f4f4; padding: 15px; border-radius: 5px; }
+        article { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 20px; }
+        section { background-color: #fff; padding: 20px; border-radius: 5px; }
+        h1, h2 { color: #0056b3; }
+        time { font-style: italic; color: #777; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Notícias Tecnológicas</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <section>
+                <h2>Notícias Recentes</h2>
+
+                <article>
+                    <h3>Inteligência Artificial Revoluciona a Agricultura na Paraíba</h3>
+                    <p>
+                        Publicado em <time datetime="2025-05-23">23 de maio de 2025</time>
+                    </p>
+                    <p>
+                        Um novo projeto em Guarabira-PB está utilizando drones e IA para monitorar
+                        plantações, otimizando o uso de água e aumentando a produtividade em
+                        mais de 30%. A tecnologia promete transformar o agronegócio local.
+                    </p>
+                    <a href="#">Leia mais...</a>
+                </article>
+
+                <article>
+                    <h3>Lançado Novo Framework JavaScript Focado em Performance</h3>
+                    <p>
+                        Publicado em <time datetime="2025-05-20T10:00-03:00">20 de maio de 2025, às 10:00</time>
+                    </p>
+                    <p>
+                        Desenvolvedores ao redor do mundo celebram o lançamento do "Velocity.js",
+                        um framework que promete renderizações até 2x mais rápidas que as
+                        alternativas atuais no mercado.
+                    </p>
+                    <a href="#">Leia mais...</a>
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <h3>Tópicos Populares</h3>
+            <ul>
+                <li><a href="#">Desenvolvimento Web</a></li>
+                <li><a href="#">Inteligência Artificial</a></li>
+                <li><a href="#">Carreiras em TI</a></li>
+                <li><a href="#">Hardware</a></li>
+            </ul>
+
+            <h3>Publicidade</h3>
+            <img src="https://via.placeholder.com/300x250.png?text=Anuncie+Aqui" alt="Espaço publicitário">
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; <time datetime="2025">2025</time> Blog de Notícias Tecnológicas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

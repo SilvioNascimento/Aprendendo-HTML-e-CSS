@@ -1,0 +1,39 @@
+header {
+  margin-top: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: darkgreen;
+    color: white;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 250px;
+        height: 250px;
+    }
+}
