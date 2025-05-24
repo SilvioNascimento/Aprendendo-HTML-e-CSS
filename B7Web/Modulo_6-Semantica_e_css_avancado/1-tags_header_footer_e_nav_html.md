@@ -100,7 +100,3 @@ A tag `<nav>` é usada para definir uma seção de navegação que contém links
   </footer>
 </section>
 ```
-
----
-
-Se precisar, posso ajudar com mais exemplos ou explicações!
