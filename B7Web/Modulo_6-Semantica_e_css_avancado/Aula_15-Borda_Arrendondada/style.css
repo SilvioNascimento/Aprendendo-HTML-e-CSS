@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#teste1 {
+    background-color: green;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+    /* border-top-left-radius: 10px;       Arredondar a borda superior esquerdo
+    border-top-right-radius: 10px;      Arredondar a borda superior direito
+    border-bottom-left-radius: 10px;    Arredondar a borda inferior esquerdo
+    border-bottom-right-radius: 10px;   Arredondar a borda inferior direito
+    */
+}
+
+#teste2 {
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 3px;
+    border: 1px solid black;
+}

@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    width: 500px;
+    height: 200px;
+    background: blue;
+    background: linear-gradient(-75deg, white, blue);
+    background: -moz-linear-gradient(-75deg, white, blue);      /* Para mozilla */
+    background: -o-linear-gradient(-75deg, white, blue);        /* Para Opera */
+    background: -webkit-linear-gradient(-75deg,white, blue);   /* Para Safari */
+}
