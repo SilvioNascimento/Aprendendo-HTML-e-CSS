@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #555;
+    min-height: 100px;
+}
+
+.container {
+    display: flex;
+    min-height: 600px;
+}
+
+aside {
+    width: 200px;
+    background-color: #888;
+    flex-shrink: 0; 
+}
+
+main {
+    flex: 1;
+    background-color: #999;
+    padding: 10px;
+    /* 1. Corrige o problema do encolhimento do aside */
+    min-width: 0; 
+    
+    /* 2. Garante que o texto longo vai quebrar */
+    overflow-wrap: break-word;
+}
+
+footer {
+    background-color: #555;
+    min-height: 100px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+address {
+    color: #fff;
+}
+
+address a {
+    color: cornflowerblue;
+}
